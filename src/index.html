@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title> Radiuino Tester </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form class="container" id="form">
+        <div class="header">
+            <img src="./assets/images/radiuino.png" alt="Radiuno"></img>
+        </div>
+        <div class="controls">
+            <label> Portas Seriais: </label>
+            <select class="portSelect" id="serialPortList"></select>
+            <button type="button" id="searchButton"> Procurar </button>
+            <div class="spacer"></div>
+            <button type="button" id="connectButton"> Conectar </button>
+        </div>
+        <div class="package" id="package"></div>
+        <div class="outputs">
+            <span class="log" id="log"></span>
+            <button class="sendButton" type="submit"> Enviar </button>
+        </div>
+        <footer>@ 2021 IoT M3F. Todos os direitos reservados</footer>
+    </form>
+    <script src="js/serialPort.js"></script>
+</body>
+
+</html>
