@@ -1,113 +1,109 @@
 body {
-    box-sizing: border-box;
-    padding: 36px 52px 0px 52px;
-    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background-color: #282c34;
-}
-
-::-webkit-scrollbar {
-    display: none;
+  box-sizing: border-box;
+  padding: 36px 44px 0px 44px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #282c34;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
-  .header {
-      margin-top: 24px;
-      margin-bottom: 48px;
-  }
-  
-  .header img {
-      width: 360px;
-  }
-  
-  .controls {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px;
-    border-style: groove;
-    border-color: #3d4555;
-  }
-
-  .controls label {
-    margin-right: 12px;
-  }
-
-  .controls .spacer {
-    flex-grow: 1;
-  }
-
-  .controls button {
-    margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-  .controls .portSelect {
-    min-width: 86px;
-  }
-
-  .package {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 24px;
-    padding: 10px;
-    border: 2px;
-    border-style: groove;
-    border-color: #3d4555;
-  }
-  
-  .package .bitGroup {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  
-  .package .bitLabel {
-    font-size: 0.8rem;
+.header {
+  margin-bottom: 48px;
 }
-  .package .bitSelect {
-      height: 28px;
-      width: 36px;
-      margin: 8px;
-  }
-  
-  .green {
-      color: green
-  }
 
-  .red {
-    color: red
-  }
+.header img {
+  width: 360px;
+}
 
-  .outputs {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-bottom: 24px;
-    padding: 10px;
-    border: 2px;
-    border-style: groove;
-    border-color: #3d4555;
-  }
+.controls {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px;
+  border-style: groove;
+  border-color: #3d4555;
+}
 
-  .outputs .sendButton {
-      margin-left: 16px;
-  }
+.controls label {
+  margin-right: 12px;
+}
 
-  footer {
-      font-size: 0.7rem;
-      color: #a5b1c7;
-  }
+.controls .spacer {
+  flex-grow: 1;
+}
+
+.controls button {
+  margin-left: 16px;
+}
+
+.controls .portSelect {
+  min-width: 86px;
+}
+
+.package {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding: 10px;
+  border: 2px;
+  border-style: groove;
+  border-color: #3d4555;
+}
+
+.package .bitGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.package .bitLabel {
+  font-size: 0.8rem;
+}
+.package .bitSelect {
+  height: 28px;
+  width: 36px;
+  margin: 8px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.outputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  padding: 10px;
+  border: 2px;
+  border-style: groove;
+  border-color: #3d4555;
+}
+
+.outputs .sendButton {
+  margin-left: 16px;
+}
+
+footer {
+  font-size: 0.7rem;
+  color: #a5b1c7;
+}
